@@ -53,6 +53,67 @@
 
 /* About Us end here */
 
+/* Footer section begins here */
+footer{
+  box-sizing: border-box;
+  background-color: #fff;
+  width: 100%;
+}
+
+#mainHead{
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic; 
+  color: black;
+  cursor: pointer;
+}
+
+#common-head{
+  font-style: italic; 
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#li-items{
+  color: rgb(136, 134, 134);
+  font-style: italic;
+}
+
+#li-items:hover{
+  color: #ffc107
+}
+
+img{
+  height: 45px;
+  width: 60px;
+  cursor: pointer;
+}
+/* Footer section ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
