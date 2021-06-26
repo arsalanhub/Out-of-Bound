@@ -1,22 +1,46 @@
 footer{
-    background-color: #211a4b;
-    position: fixed;
-    bottom: 0;
+    box-sizing: border-box;
+    background-color: #fff;
     width: 100%;
 }
 
-.container{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 #mainHead{
-    color: white;
-    font-weight: 400;
+    font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-style: italic; 
+    color: black;
+    cursor: pointer;
+}
+
+#mainHead:hover{
+    font-size: 40px;
+}
+
+#common-head{
+    font-style: italic; 
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#common-head:hover{
+    color: gold;
+}
+
+
+#li-items{
+    color: rgb(136, 134, 134);
+    font-style: italic;
+}
+
+#li-items:hover{
+    color: gold
+}
+
+img{
+    height: 45px;
+    width: 60px;
+    cursor: pointer;
 }
