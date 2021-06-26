@@ -1,0 +1,22 @@
+footer{
+    background-color: #211a4b;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#mainHead{
+    color: white;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
