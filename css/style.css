@@ -11,6 +11,13 @@
 @import url(./partials/_global.css);
 
 
+/*Body*/
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #818182;
+}
+
 /* About Me */ 
 
 .site-main .about-area .about-title p{
@@ -50,6 +57,16 @@
     width: 12px;
     height: 12px;
 }
+
+/* Navbar-Style */
+/* Navbar-edit */
+
+@media (max-width: 991.98px){
+.navbar-expand-lg > .container, .navbar-expand-lg > .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    /* margin: inherit; */
+}}
 
 /* About Us end here */
 
