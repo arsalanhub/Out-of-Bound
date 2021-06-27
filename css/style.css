@@ -10,14 +10,6 @@
 /* import global styling */ 
 @import url(./partials/_global.css);
 
-
-/*Body*/
-body{
-  margin: 0;
-  padding: 0;
-  background-color: #818182;
-}
-
 /* About Me */ 
 
 .site-main .about-area .about-title p{
@@ -58,8 +50,13 @@ body{
     height: 12px;
 }
 
-/* Navbar-Style */
-/* Navbar-edit */
+#About-Us{
+    border-bottom: 1px solid goldenrod;
+}
+
+
+
+/* About Us end here */
 
 @media (max-width: 991.98px){
 .navbar-expand-lg > .container, .navbar-expand-lg > .container-fluid {
@@ -68,7 +65,7 @@ body{
     /* margin: inherit; */
 }}
 
-/* About Us end here */
+
 
 /* Footer section begins here */
 footer{
@@ -85,6 +82,7 @@ footer{
   font-style: italic; 
   color: black;
   cursor: pointer;
+  border-bottom: 1px solid goldenrod;
 }
 
 #common-head{
@@ -202,12 +200,7 @@ div.categories.row{
 
 
 
-
-
-
-
-
-/*!
+/*
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
