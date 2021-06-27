@@ -93,6 +93,77 @@ img{
 }
 /* Footer section ends here */
 
+/* Category section begins here */
+body{
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  margin-top: 100px;
+}
+
+.explore-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  position: relative;
+  color: #212121;
+  font-weight: 600;
+  font-size: large;
+  font-family: "Mr Eaves XL Modern", sans-serif;
+  border-bottom: 1px solid #ED7745;
+
+}
+
+a.category{
+  margin: 15px;
+  padding: 0;
+  border: 0;
+  font-family: "Mr Eaves XL Modern", sans-serif;
+  vertical-align: baseline;
+}
+
+.explore-categories .categories {
+  -webkit-box-flex: 1;
+  flex: 1;
+  margin: 15px;
+  cursor: pointer;
+}
+
+
+h4.no-padding.category-name{
+  color: #000000;
+  font-size: 16px; 
+  font-family: "Mr Eaves XL Modern", sans-serif;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+svg.category-icon:hover{
+  fill: goldenrod;
+  transition: 500ms
+}
+
+.category:hover h4{
+  color: goldenrod
+}
+
+a:hover{
+  text-decoration: none;
+  fill: goldenrod;
+  transition: 500ms
+}
+
+div.categories.row{
+  color: #212121;
+  font-size: 16px; 
+  font-family: "Mr Eaves XL Modern", sans-serif;
+  padding: 0px 9px
+}
+/* Category section ends here */
 
 
 
