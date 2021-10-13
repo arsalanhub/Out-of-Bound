@@ -7,3 +7,5 @@ After clickig on any button present in explore section you will be redirected to
 
 Languages, plugins, framework and other tools used: 
 HTML, CSS, JavaScript, jQuery, Bootrap, owl-carousel and magnific pop-up
+
+React phase begin from here
